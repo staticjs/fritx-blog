@@ -2,16 +2,18 @@ html, body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 106%;
+  font-family: "Microsoft YaHei", sans-serif;
 }
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 /* learnt from github */
 pre, code {
-  font-family: Consolas, "Liberation Mono", Courier, monospace, serif;
+  font-family: Consolas, "Liberation Mono", Courier, monospace, sans-serif;
   background-color: #f8f8f8;
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -44,6 +46,7 @@ table {
 table th, table td {
   border: 1px solid #ddd;
   padding: 6px 13px;
+  min-width: 4em;
 }
 table tr {
   border-top: 1px solid #ccc;
@@ -59,10 +62,9 @@ blockquote {
   color: #777;
 }
 
-/* TODO: be responsive, use grid instead of absolute */
 .sidebar {
   color: #fff;
-  background-color: #2a2a2a;
+  background-color: #336699;
 }
 .sidebar-inner {
   padding: 2% 5%;
@@ -73,15 +75,24 @@ blockquote {
 .sidebar h1 a {
   text-decoration: none;
 }
+.sidebar blockquote {
+  color: #bbb;
+}
 
 .main-inner {
-  padding: 2% 5% 10%;
+  padding: 2% 5% 6%;
+}
+.main-page {
+  padding-bottom: 3%;
+}
+
+.img-holder {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 @media (min-width: 640px) {
-  img {
-    max-width: 60%;
-  }
   pre {
     font-size: 80%;
   }
@@ -94,7 +105,8 @@ blockquote {
   }
 
   .main-inner {
-    padding: 2% 10% 10%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 

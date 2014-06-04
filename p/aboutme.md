@@ -2,14 +2,14 @@
 
 ## Fritz Lin
 
-<img alt="avatar" src="avatar.jpg" width="240">
+<img src="avatar.jpg" width="240">
 
-> Life is short, I use JS.
+> Life is short, I use JS
 
 ## Major
 
-- Node.js/JavaScript Programming
-- Website Design (CSS/HTML)
+- Node.js / JavaScript Programming
+- Website Design (CSS / HTML)
 
 ## College Studying In
 

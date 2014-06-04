@@ -8,22 +8,36 @@
 
   <title>Fritx's Blog</title>
 
-  <!-- import styles -->
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- import vendor styles -->
   <link rel="stylesheet" href="vendor/blog.css">
 </head>
 <body>
 
+<!-- fill the img in shared links -->
+<img class="img-holder" src="p/avatar.jpg">
+
 <!-- settle contents -->
 <div class="contents" id="contents">
   <div class="sidebar">
-    <div class="sidebar-inner" id="sidebar-inner"></div>
+    <div class="sidebar-inner">
+      <div class="sidebar-page" id="sidebar-page"></div>
+    </div>
   </div>
+
   <div class="main" id="main">
-    <div class="main-inner" id="main-inner"></div>
+    <div class="main-inner">
+      <div class="main-page" id="main-page"></div>
+
+      <!-- disqus container -->
+      <div id="disqus_thread"></div>
+    </div>
   </div>
 </div>
 
-<!-- import scripts -->
+<!-- import vendor scripts -->
 <script src="vendor/jquery-1.11.1.min.js"></script>
 <script src="vendor/marked-0.3.2.min.js"></script>
 <script src="vendor/blog.js"></script>
